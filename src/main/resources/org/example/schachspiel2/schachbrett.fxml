@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane gridLinesVisible="true">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Pane fx:id="a8" prefHeight="100.0" prefWidth="100.0">
+               <children>
+                  <ImageView fx:id="tbl" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Turm-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="b8" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="1">
+               <children>
+                  <ImageView fx:id="sbl" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Springer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="c8" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="2">
+               <children>
+                  <ImageView fx:id="lbl" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/laeufer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="d8" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="3">
+               <children>
+                  <ImageView fx:id="db" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Dame-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="e8" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="4">
+               <children>
+                  <ImageView fx:id="kb" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/koenig-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="f8" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="5">
+               <children>
+                  <ImageView fx:id="lbr" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/laeufer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="g8" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="6">
+               <children>
+                  <ImageView fx:id="sbr" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Springer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="h8" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="7">
+               <children>
+                  <ImageView fx:id="tbr" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Turm-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="a7" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="bb0" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="b7" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="bb1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="c7" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="bb2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="d7" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="bb3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="e7" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="bb4" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="f7" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="bb5" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="g7" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="bb6" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="h7" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="bb7" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-b.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="a6" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" GridPane.rowIndex="2" />
+            <Pane fx:id="b6" layoutX="110.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Pane fx:id="c6" layoutX="210.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Pane fx:id="d6" layoutX="310.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Pane fx:id="e6" layoutX="410.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Pane fx:id="f6" layoutX="510.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Pane fx:id="g6" layoutX="610.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Pane fx:id="h6" layoutX="710.0" layoutY="10.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Pane fx:id="a5" layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.rowIndex="3" />
+            <Pane fx:id="b5" layoutX="110.0" layoutY="110.0" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Pane fx:id="c5" layoutX="210.0" layoutY="110.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Pane fx:id="d5" layoutX="310.0" layoutY="110.0" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Pane fx:id="e5" layoutX="410.0" layoutY="110.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Pane fx:id="f5" layoutX="510.0" layoutY="110.0" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Pane fx:id="g5" layoutX="610.0" layoutY="110.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Pane fx:id="h5" layoutX="710.0" layoutY="110.0" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Pane fx:id="a4" prefHeight="100.0" prefWidth="100.0" GridPane.rowIndex="4" />
+            <Pane fx:id="b4" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Pane fx:id="c4" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Pane fx:id="d4" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Pane fx:id="e4" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Pane fx:id="f4" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Pane fx:id="g4" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Pane fx:id="h4" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Pane fx:id="a3" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.rowIndex="5" />
+            <Pane fx:id="b3" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Pane fx:id="c3" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Pane fx:id="d3" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Pane fx:id="e3" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Pane fx:id="f3" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Pane fx:id="g3" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Pane fx:id="h3" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Pane fx:id="a2" prefHeight="100.0" prefWidth="100.0" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="bw0" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="b2" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="bw1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="c2" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="bw2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="d2" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="bw3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="e2" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="bw4" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="f2" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="bw5" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="g2" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="bw6" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="h2" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="bw7" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Bauer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="a1" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="twl" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Turm-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="b1" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="swl" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Springer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="c1" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="lwl" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/laeufer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="d1" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="dw" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Dame-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="e1" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="kw" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/koenig-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="f1" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="lwr" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/laeufer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="g1" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #4bd3e8;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="swr" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Springer-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="h1" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="twr" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@figuren/Turm-w.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+   </children>
+</Pane>
